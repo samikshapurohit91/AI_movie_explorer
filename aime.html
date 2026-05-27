@@ -1,0 +1,176 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <meta charset="UTF-8">
+
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1.0"
+  >
+
+  <title>AI Movie Explorer</title>
+
+  <link rel="stylesheet" href="aime.css">
+
+  <link
+    rel="preconnect"
+    href="https://fonts.googleapis.com"
+  >
+
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap"
+    rel="stylesheet"
+  >
+
+</head>
+
+<body>
+
+  <div class="overlay"></div>
+
+  <div class="container">
+
+     
+
+    <nav>
+
+      <h1>🎬 AI Movie Explorer</h1>
+
+    </nav>
+
+    
+
+    <div class="hero">
+
+      <h2>
+        Discover Amazing Movies 🍿
+      </h2>
+
+      <p>
+        Search your favorite movies instantly
+      </p>
+
+      <div class="search-box">
+
+        <input
+          type="text"
+          id="searchInput"
+          placeholder="Search movies..."
+        >
+
+        <button onclick="searchMovies()">
+          Search
+        </button>
+
+      </div>
+
+    </div>
+
+   
+
+    <div
+      class="movie-grid"
+      id="movieGrid"
+    ></div>
+
+  </div>
+
+  <script src="aime.js"></script>
+
+</body>
+</html> -->
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <meta charset="UTF-8">
+
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1.0"
+  >
+
+  <title>AI Movie Explorer</title>
+
+  <link rel="stylesheet" href="aime.css">
+
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap"
+    rel="stylesheet"
+  >
+
+</head>
+
+<body>
+
+  <div class="container">
+
+    <!-- Navbar -->
+
+    <nav>
+
+      <h1>🎬 AI Movie Explorer</h1>
+
+      <button id="themeBtn">
+        🌙
+      </button>
+
+    </nav>
+
+    <!-- Search -->
+
+    <div class="search-box">
+
+      <input
+        type="text"
+        id="searchInput"
+        placeholder="Search movies..."
+      >
+
+    </div>
+
+    <!-- Trending -->
+
+    <h2 class="section-title">
+      Trending Shows 🔥
+    </h2>
+
+    <div
+      class="movie-grid"
+      id="movieGrid"
+    ></div>
+
+  </div>
+
+  <!-- Popup -->
+
+  <div
+    class="popup"
+    id="popup"
+  >
+
+    <div class="popup-content">
+
+      <span id="closeBtn">
+        ✖
+      </span>
+
+      <div id="popupData"></div>
+
+    </div>
+
+  </div>
+
+  <script src="aime.js"></script>
+
+</body>
+</html>
